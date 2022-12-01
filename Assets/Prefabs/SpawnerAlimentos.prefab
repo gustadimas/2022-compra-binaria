@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1343905061093508392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1343905061093508391}
+  - component: {fileID: 9000380387088449120}
+  m_Layer: 0
+  m_Name: SpawnerAlimentos
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1343905061093508391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343905061093508392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.15, y: 4.29, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9000380387088449120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343905061093508392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1ade000035e5948866ceaf44cfbdd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alimentos:
+  - {fileID: 2642880865324710699, guid: e17dc50d3b3545f489193cadece9e89b, type: 3}
+  - {fileID: 2484899049774845107, guid: a278071824159c143bad6153b5cd19d3, type: 3}
+  - {fileID: 623691313707285921, guid: 62fd7a664c991684893f545e9d8a23d0, type: 3}
+  - {fileID: 6126603891056810574, guid: 9acbdbb763a44594f979be5018716b8b, type: 3}
+  - {fileID: 6878666130697511105, guid: a3c8577a6796d604c872435d0be30ec0, type: 3}
+  - {fileID: 949995621568585771, guid: de4735a913a487e4d912d040d67dea41, type: 3}
+  - {fileID: 8522854220021260297, guid: 45d552eb910ed694fac725814b5bef4d, type: 3}
+  - {fileID: 2623846323762885188, guid: 2ddee4e8906a997439cc3817d81aa112, type: 3}
+  - {fileID: 6314144924045880482, guid: 5c087200acee3db49921626b4a98aa0e, type: 3}
+  - {fileID: 6739792167591893160, guid: 671d4efbf1e26524ea92bdb708fa0682, type: 3}
+  - {fileID: 2410869417857578949, guid: fe5c677a890c07c4a97774b235ff2475, type: 3}
+  - {fileID: 5509009299903201028, guid: dd9ef0b114e609b4ebafab343f290416, type: 3}
